@@ -1,0 +1,8 @@
+/home/catman/ta/matmul/build/CMakeFiles/ascendc_kernels_cpu.dir
+/home/catman/ta/matmul/build/CMakeFiles/ascendc_kernels_bbit.dir
+/home/catman/ta/matmul/build/CMakeFiles/edit_cache.dir
+/home/catman/ta/matmul/build/CMakeFiles/rebuild_cache.dir
+/home/catman/ta/matmul/build/CMakeFiles/list_install_components.dir
+/home/catman/ta/matmul/build/CMakeFiles/install.dir
+/home/catman/ta/matmul/build/CMakeFiles/install/local.dir
+/home/catman/ta/matmul/build/CMakeFiles/install/strip.dir

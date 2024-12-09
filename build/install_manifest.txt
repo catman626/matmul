@@ -1,0 +1,2 @@
+/home/catman/ta/matmul/out/lib/libascendc_kernels_cpu.so
+/home/catman/ta/matmul/out/bin/ascendc_kernels_bbit
