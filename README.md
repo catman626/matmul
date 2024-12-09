@@ -51,8 +51,12 @@
 
   - 样例执行
 
+    - cpu 调试
     ```bash
-    bash run.sh -r [RUN_MODE] -v  [SOC_VERSION]
+    bash run.sh -r cpu
+    ```
+    ```bash
+    bash run.sh -r npu -v Ascned310B4
     ```
     - RUN_MODE：编译方式，可选择CPU调试，NPU仿真，NPU上板。支持参数为[cpu / sim / npu]，默认值为npu。
     - SOC_VERSION：昇腾AI处理器型号，如果无法确定具体的[SOC_VERSION]，则在安装昇腾AI处理器的服务器执行npu-smi info命令进行查询，在查询到的“Name”前增加Ascend信息，例如"Name"对应取值为xxxyy，实际配置的[SOC_VERSION]值为Ascendxxxyy。支持以下参数取值（xxx请替换为具体取值）：
@@ -64,10 +68,3 @@
     ```bash
     bash run.sh -r cpu -v Ascend310P1
     ```
-
-## 更新说明
-| 时间       | 更新事项     |
-| ---------- | ------------ |
-| 2023/05/21 | 更新本readme |
-| 2024/07/31 | 修改本readme中的形状说明错误 |
-| 2024/11/11 | 样例目录调整 |
